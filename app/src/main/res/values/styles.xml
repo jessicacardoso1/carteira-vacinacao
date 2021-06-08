@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="Azul" parent="TextAppearance.AppCompat">
-        <item name="android:textColor">#FF03DAC5</item>
+        <item name="titleTextColor">#FFFFFFFF</item>
+        <item name="android:background">#FF00A6FF</item>
+        <item name="android:fontFamily">Roboto</item>
+        <item name="android:textSize">27sp</item>
+        <item name="android:lineSpacingMultiplier">0.3</item>
     </style>
 </resources>
