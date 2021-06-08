@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">carteira-vacinacao</string>
+    <string name="app_name">Carteira de Vacinação Digital</string>
+    <string name="page_title">Carteira de Vacinação Digital</string>
 </resources>
