@@ -3,4 +3,5 @@
     <string name="page_title">Carteira de Vacinação Digital</string>
     <string name="cpf">CPF</string>
     <string name="senha">SENHA</string>
+    <string name="desc">Logo</string>
 </resources>
