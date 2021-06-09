@@ -32,6 +32,26 @@
             android:hint="Senha"
             android:inputType="text"/>
 
+        <Button
+            android:id="@+id/containedButton"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:text="Login"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"/>
+
+        <Button
+            android:id="@+id/outlinedButton"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="Criar conta"
+            android:layout_gravity="center"
+            style="?attr/materialButtonOutlinedStyle"
+            android:background="@drawable/rounded_corner"/>
+
+
 
 </LinearLayout>
 
