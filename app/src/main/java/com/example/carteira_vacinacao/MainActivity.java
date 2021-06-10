@@ -10,8 +10,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        EditText et = (EditText) findViewById(R.id.txtSub);
-        String name = et.getText().toString();
+        setContentView(R.layout.minha_carteira);
+        //EditText et = (EditText) findViewById(R.id.txtSub);
+        //String name = et.getText().toString();
     }
 }
