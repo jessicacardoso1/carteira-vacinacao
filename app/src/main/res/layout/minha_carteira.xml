@@ -1,14 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.card.MaterialCardView android:id="@+id/card"
-    android:layout_width="172dp"
-    android:layout_height="172dp"
+<com.google.android.material.card.MaterialCardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_margin="8dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <FrameLayout
+        android:layout_width="374dp"
+        android:layout_height="151dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/raster" />
+
+        <TextView
+            android:layout_width="39dp"
+            android:layout_height="21dp"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="160dp"
+            android:ellipsize="end"
+            android:text="User">
+
+        </TextView>
+
+
+    </FrameLayout>
 
     <LinearLayout
         android:layout_width="172dp"
         android:layout_height="172dp"
+        android:layout_marginTop="200dp"
         android:orientation="vertical">
+
+        <!-- Checkboxes -->
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -20,13 +50,12 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="COVID 19"
-                android:textAppearance="?attr/textAppearanceHeadline6"
                 android:layout_gravity="center"
-                />
+                android:text="COVID 19"
+                android:textAppearance="?attr/textAppearanceHeadline6" />
 
         </LinearLayout>
-        <!-- Checkboxes -->
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="45dp"
@@ -39,11 +68,11 @@
                 android:checked="true"
 
                 />
+
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                />
+                android:layout_marginLeft="10dp" />
         </LinearLayout>
         <!-- Texto informativo -->
         <LinearLayout
@@ -56,9 +85,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginTop="7dp"
                 android:layout_marginBottom="5dp"
-                android:layout_gravity="center"
                 android:text="Próxima Vacina"
                 android:textAppearance="?attr/textAppearanceHeadline6"
                 android:textSize="5pt" />
@@ -71,10 +100,10 @@
                 android:textAppearance="?attr/textAppearanceHeadline6"
                 android:textSize="5pt" />
 
+
         </LinearLayout>
 
-
-
     </LinearLayout>
+
 
 </com.google.android.material.card.MaterialCardView>
