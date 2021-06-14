@@ -14,16 +14,16 @@
             android:id="@+id/imageView"
             android:layout_width="99dp"
             android:layout_height="99dp"
-            android:layout_marginLeft="120dp"
-            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
             android:contentDescription="@string/desc"
             android:src="@drawable/raster" />
 
         <TextView
             android:layout_width="39dp"
             android:layout_height="21dp"
-            android:layout_gravity="bottom"
-            android:layout_marginLeft="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
             android:ellipsize="end"
             android:text="User">
 
