@@ -8,23 +8,29 @@
         android:id="@+id/Nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:ems="30"
         android:hint="Nome completo"
+        android:textSize="20sp"
         android:inputType="text" />
 
     <EditText
         android:id="@+id/dataNasc"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Data de nascimento"
+        android:textSize="20sp"
         android:inputType="text" />
 
     <EditText
         android:id="@+id/cpf"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
+        android:textSize="20sp"
         android:hint="CPF"
         android:inputType="text" />
 
@@ -32,23 +38,29 @@
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
+        android:textSize="20sp"
         android:hint="E-mail"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/celular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
+        android:textSize="20sp"
         android:hint="Celular"
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/endereco"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
+        android:textSize="20sp"
         android:hint="Endereço"
         android:inputType="text" />
 
@@ -56,7 +68,9 @@
         android:id="@+id/senha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
+        android:textSize="20sp"
         android:hint="Senha"
         android:inputType="text"/>
 
@@ -64,19 +78,20 @@
         android:id="@+id/novaSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:ems="10"
+        android:textSize="20sp"
         android:hint="Digite a nova senha"
-        android:inputType="text"/>
+        android:inputType="text" />
 
     <Button
         android:id="@+id/containedButton"
         android:layout_width="350dp"
         android:layout_height="60dp"
-        android:text="Login"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
-        android:background="@drawable/rounded_corner"/>
-
+        android:background="@drawable/quadrado_botao"
+        android:text="Cadastre-se" />
 
 
 </LinearLayout>

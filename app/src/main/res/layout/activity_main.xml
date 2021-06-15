@@ -33,7 +33,7 @@
             android:inputType="text"/>
 
         <Button
-            android:id="@+id/containedButton"
+            android:id="@+id/login"
             android:layout_width="350dp"
             android:layout_height="60dp"
             android:text="Login"
@@ -42,7 +42,7 @@
             android:background="@drawable/rounded_corner"/>
 
         <Button
-            android:id="@+id/outlinedButton"
+            android:id="@+id/cadastrar"
             android:layout_width="350dp"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
