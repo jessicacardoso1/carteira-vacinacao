@@ -29,371 +29,365 @@
 </FrameLayout>
 
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
->
-
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/card"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="387dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:orientation="vertical">
+        android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="172dp"
-            android:layout_height="172dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/back"
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:orientation="vertical">
 
-            <!-- Checkboxes -->
-
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="16dp">
+                android:layout_width="172dp"
+                android:layout_height="172dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/back"
+                android:orientation="vertical">
 
-                <!-- Title, secondary and supporting text -->
-                <TextView
-                    android:layout_width="wrap_content"
+                <!-- Checkboxes -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="COVID 19"
-                    android:textAppearance="?attr/textAppearanceHeadline6" />
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="COVID 19"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp"
+                        android:checked="true"
+                        android:scaleX="2.0"
+                        android:scaleY="2.0" />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginLeft="30dp" />
+                </LinearLayout>
+
+                <!-- Texto informativo -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Próxima Vacina"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textSize="5pt" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="22/07/2021"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textSize="5pt" />
+
+                </LinearLayout>
+
 
             </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="45dp"
-                android:orientation="horizontal">
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginLeft="30dp"
-                    android:scaleX="2.0"
-                    android:scaleY="2.0"
-                    android:checked="true" />
-
-                <CheckBox
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="30dp"
-                    android:layout_marginLeft="30dp" />
-            </LinearLayout>
-
-            <!-- Texto informativo -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="0dp">
-
-                <!-- Title, secondary and supporting text -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="7dp"
-                    android:layout_marginBottom="5dp"
-                    android:text="Próxima Vacina"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textSize="5pt" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="22/07/2021"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textSize="5pt" />
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/card2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/back"
-        app:strokeColor="@color/stroke_color"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="172dp"
-            android:layout_height="172dp"
-            android:layout_marginTop="20dp"
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
             android:background="@drawable/back"
-            android:orientation="vertical">
-
-            <!-- Checkboxes -->
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-
-                android:padding="16dp">
-
-                <!-- Title, secondary and supporting text -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="COVID 19"
-                    android:textAppearance="?attr/textAppearanceHeadline6" />
-
-            </LinearLayout>
+            android:orientation="vertical"
+            app:strokeColor="@color/stroke_color">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="45dp"
-                android:orientation="horizontal">
+                android:layout_width="172dp"
+                android:layout_height="172dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/back"
+                android:orientation="vertical">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
+                <!-- Checkboxes -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:checked="true"
+                    android:orientation="vertical"
 
-                    />
+                    android:padding="16dp">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="COVID 19"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:checked="true"
+
+                        />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+                <!-- Texto informativo -->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp" />
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Próxima Vacina"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textSize="5pt" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="22/07/2021"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textSize="5pt" />
+
+
+                </LinearLayout>
+
+
             </LinearLayout>
-            <!-- Texto informativo -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="0dp">
+        </com.google.android.material.card.MaterialCardView>
 
-                <!-- Title, secondary and supporting text -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="7dp"
-                    android:layout_marginBottom="5dp"
-                    android:text="Próxima Vacina"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textSize="5pt" />
+    </LinearLayout>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="22/07/2021"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textSize="5pt" />
-
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-</LinearLayout>
-
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    >
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/card3"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="389dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/back"
-        app:strokeColor="@color/stroke_color"
-        android:orientation="vertical"
-        >
+        android:orientation="horizontal">
 
-        <LinearLayout
-            android:layout_width="172dp"
-            android:layout_height="172dp"
-            android:layout_marginTop="20dp"
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/back"
-            android:orientation="vertical">
-
-            <!-- Checkboxes -->
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-
-                android:padding="16dp">
-
-                <!-- Title, secondary and supporting text -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="COVID 19"
-                    android:textAppearance="?attr/textAppearanceHeadline6" />
-
-            </LinearLayout>
+            android:orientation="vertical"
+            app:strokeColor="@color/stroke_color">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="45dp"
-                android:orientation="horizontal">
+                android:layout_width="172dp"
+                android:layout_height="172dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/back"
+                android:orientation="vertical">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
+                <!-- Checkboxes -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:checked="true"
+                    android:orientation="vertical"
 
-                    />
+                    android:padding="16dp">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="COVID 19"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:checked="true"
+
+                        />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+                <!-- Texto informativo -->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp" />
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Próxima Vacina"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textSize="5pt" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="22/07/2021"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textSize="5pt" />
+
+
+                </LinearLayout>
+
+
             </LinearLayout>
-            <!-- Texto informativo -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="0dp">
+        </com.google.android.material.card.MaterialCardView>
 
-                <!-- Title, secondary and supporting text -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="7dp"
-                    android:layout_marginBottom="5dp"
-                    android:text="Próxima Vacina"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textSize="5pt" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="22/07/2021"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textSize="5pt" />
-
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-    <com.google.android.material.card.MaterialCardView
-        android:id="@+id/card4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:background="@drawable/back"
-        app:strokeColor="@color/stroke_color"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="172dp"
-            android:layout_height="172dp"
-            android:layout_marginTop="20dp"
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/card4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/back"
-            android:orientation="vertical">
-
-            <!-- Checkboxes -->
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-
-                android:padding="16dp">
-
-                <!-- Title, secondary and supporting text -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="COVID 19"
-                    android:textAppearance="?attr/textAppearanceHeadline6" />
-
-            </LinearLayout>
+            android:orientation="vertical"
+            app:strokeColor="@color/stroke_color">
 
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="45dp"
-                android:orientation="horizontal">
+                android:layout_width="172dp"
+                android:layout_height="172dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/back"
+                android:orientation="vertical">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
+                <!-- Checkboxes -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:checked="true"
+                    android:orientation="vertical"
 
-                    />
+                    android:padding="16dp">
 
-                <CheckBox
-                    android:layout_width="wrap_content"
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="COVID 19"
+                        android:textAppearance="?attr/textAppearanceHeadline6" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:checked="true"
+
+                        />
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp" />
+                </LinearLayout>
+                <!-- Texto informativo -->
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp" />
+                    android:orientation="vertical"
+                    android:padding="0dp">
+
+                    <!-- Title, secondary and supporting text -->
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="Próxima Vacina"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textSize="5pt" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="22/07/2021"
+                        android:textAppearance="?attr/textAppearanceHeadline6"
+                        android:textSize="5pt" />
+
+
+                </LinearLayout>
+
+
             </LinearLayout>
-            <!-- Texto informativo -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:padding="0dp">
+        </com.google.android.material.card.MaterialCardView>
 
-                <!-- Title, secondary and supporting text -->
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="7dp"
-                    android:layout_marginBottom="5dp"
-                    android:text="Próxima Vacina"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textSize="5pt" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="22/07/2021"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textSize="5pt" />
-
-
-            </LinearLayout>
-
-
-        </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
-
-</LinearLayout>
+    </LinearLayout>
 
 </LinearLayout>
