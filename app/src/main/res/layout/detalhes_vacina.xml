@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title, secondary and supporting text -->
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:width="65dp"
+                android:height="23dp"
+                android:lineSpacingMultiplier="1.29"
+                android:text="2º Dose"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="#FF47525E"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:width="250dp"
+                android:height="96dp"
+                android:lineSpacingMultiplier="1.28"
+                android:text="Dose agendada para o dia 22/07/2021. Compareça a unidade de saúde mais próxima de sua residência."
+                android:textColor="#FF47525E"
+                android:textSize="14dp" />
+
+            <TextView
+                android:layout_width="79dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:width="73dp"
+                android:height="19dp"
+                android:background="@drawable/atraso"
+                android:lineSpacingMultiplier="1.28"
+                android:text="Em atraso!"
+                android:textColor="#FFFFFFFF"
+
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+            <TextView
+                android:layout_width="79dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:width="65dp"
+                android:height="23dp"
+                android:text="1º Dose"
+                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textColor="#FF47525E"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="79dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:width="73dp"
+                android:height="19dp"
+                android:background="@drawable/realizada"
+                android:lineSpacingMultiplier="1.28"
+                android:text="Realizada!"
+                android:textColor="#FFFFFFFF"
+
+                android:textSize="16dp" />
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+</LinearLayout>
