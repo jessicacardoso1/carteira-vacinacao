@@ -26,29 +26,29 @@
         android:text="User">
 
     </TextView>
-
-
 </FrameLayout>
+
 
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    >
+>
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:orientation="vertical"
-        >
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="172dp"
             android:layout_height="172dp"
             android:layout_marginTop="20dp"
+            android:background="@drawable/back"
             android:orientation="vertical">
 
             <!-- Checkboxes -->
@@ -57,7 +57,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-
                 android:padding="16dp">
 
                 <!-- Title, secondary and supporting text -->
@@ -78,16 +77,19 @@
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:checked="true"
-
-                    />
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:scaleX="2.0"
+                    android:scaleY="2.0"
+                    android:checked="true" />
 
                 <CheckBox
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp" />
+                    android:layout_marginStart="30dp"
+                    android:layout_marginLeft="30dp" />
             </LinearLayout>
+
             <!-- Texto informativo -->
             <LinearLayout
                 android:layout_width="match_parent"
@@ -114,7 +116,6 @@
                     android:textAppearance="?attr/textAppearanceHeadline6"
                     android:textSize="5pt" />
 
-
             </LinearLayout>
 
 
@@ -125,15 +126,18 @@
         android:id="@+id/card2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/back"
+        app:strokeColor="@color/stroke_color"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="172dp"
             android:layout_height="172dp"
             android:layout_marginTop="20dp"
+            android:background="@drawable/back"
             android:orientation="vertical">
 
             <!-- Checkboxes -->
@@ -217,9 +221,11 @@
         android:id="@+id/card3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/back"
+        app:strokeColor="@color/stroke_color"
         android:orientation="vertical"
         >
 
@@ -227,6 +233,7 @@
             android:layout_width="172dp"
             android:layout_height="172dp"
             android:layout_marginTop="20dp"
+            android:background="@drawable/back"
             android:orientation="vertical">
 
             <!-- Checkboxes -->
@@ -303,15 +310,18 @@
         android:id="@+id/card4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/back"
+        app:strokeColor="@color/stroke_color"
         android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="172dp"
             android:layout_height="172dp"
             android:layout_marginTop="20dp"
+            android:background="@drawable/back"
             android:orientation="vertical">
 
             <!-- Checkboxes -->
@@ -385,4 +395,5 @@
     </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
+
 </LinearLayout>
