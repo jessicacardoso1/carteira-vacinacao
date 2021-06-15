@@ -31,25 +31,38 @@
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
->
+    android:orientation="horizontal">
+
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="8dp">
 
-        >
+        <TextView
+            android:id="@+id/notification_badge"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/badge_background"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
+
 
         <LinearLayout
-            android:layout_width="172dp"
+            android:layout_width="173dp"
             android:layout_height="172dp"
             android:background="@drawable/back"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
 
             <!-- Checkboxes -->
-
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -130,6 +143,19 @@
         android:layout_marginTop="8dp"
         android:background="@drawable/back"
         >
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/badge_background"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
 
         <LinearLayout
             android:layout_width="172dp"
@@ -225,8 +251,21 @@
         android:layout_marginTop="8dp"
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20dp"
-        android:background="@drawable/back"
-        >
+        android:background="@drawable/back">
+
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/badge_background"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
 
         <LinearLayout
             android:layout_width="172dp"
@@ -318,6 +357,20 @@
         android:background="@drawable/back"
        >
 
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/badge_background"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="1"
+            android:textColor="@android:color/black"
+            android:textSize="10sp" />
+
         <LinearLayout
             android:layout_width="172dp"
             android:layout_height="172dp"
@@ -399,5 +452,4 @@
     </com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>
-
 </LinearLayout>
