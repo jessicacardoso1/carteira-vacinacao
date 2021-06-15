@@ -4,5 +4,6 @@
     <string name="cpf">CPF</string>
     <string name="senha">SENHA</string>
     <string name="desc">Logo</string>
+    <string name="user">User</string>
     <string name="content_description_media">Próxima vacina</string>
 </resources>
