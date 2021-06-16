@@ -11,6 +11,7 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;
+    private Button button2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,10 +29,30 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        button2 = (Button) findViewById(R.id.cadastrar);
+
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                criarActivityCadastrar();
+            }
+        });
+
     }
-    public void criarActivityLogin(){
+
+    public void criarActivityLogin() {
         Intent intent = new Intent(this, carteira.class);
         startActivity(intent);
     }
-    /*private void criarActivityCadastro(){}*/
+
+
+
+
+    public void criarActivityCadastrar(){
+        Intent intent = new Intent(this, cadastro.class);
+        startActivity(intent);
+    }
+
 }
+
