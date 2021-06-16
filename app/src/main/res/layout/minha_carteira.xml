@@ -78,6 +78,10 @@
                         android:text="COVID 19"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
+                    <Button
+                        android:id="@+id/nomeVacina"
+                        android:layout_width="10dp"
+                        android:layout_height="10dp"/>
                 </LinearLayout>
 
                 <LinearLayout
