@@ -6,4 +6,6 @@
     <string name="desc">Logo</string>
     <string name="user">User</string>
     <string name="content_description_media">Próxima vacina</string>
+    <string name="titulo_cadastrar">Cadastro usuário</string>
+    <string name="obrigatorio">Campo obrigatorio</string>
 </resources>
