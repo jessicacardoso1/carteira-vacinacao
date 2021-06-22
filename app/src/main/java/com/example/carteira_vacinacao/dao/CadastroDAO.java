@@ -1,8 +1,11 @@
 package com.example.carteira_vacinacao.dao;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+
+import com.example.carteira_vacinacao.Usuario;
 
 public class CadastroDAO extends SQLiteOpenHelper {
 
@@ -38,5 +41,23 @@ public class CadastroDAO extends SQLiteOpenHelper {
         String ddl = "DROP TABLE IF EXISTS usuario";
         db.execSQL(ddl);
         onCreate(db);
+    }
+
+    public boolean autenticaUsuario(Usuario usuario){
+        SQLiteDatabase db = getReadableDatabase();
+        String sql_busca_usuario = "SELECT * FROM usuario WHERE cpf = " + "'" + usuario.getCpf() + "'";
+        Cursor c = db.rawQuery(sql_busca_usuario,null);
+        while (c.moveToNext()){
+            if(usuario.getCpf().equals(c.getString(c.getColumnIndex("cpf")))){
+                if(usuario.getSenha().equals(c.getString(c.getColumnIndex("senha")))){
+
+                   return true;
+                }
+            }
+        }
+        db.close();
+        c.close();
+        return false;
+
     }
 }
