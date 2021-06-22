@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Digital Vaccination Card</string>
+    <string name="senha">Password</string>
+    <string name="page_title">Digital Vaccination Card</string>
+    <string name="criar_conta">Create account</string>
+    <string name="user">user</string>
+    <string name="content_description_media">Next Vaccine</string>
+    <string name="nome_completo">Full name</string>
+    <string name="data_nascimento">Birth date</string>
+    <string name="celular">Cell</string>
+    <string name="endereco">Address</string>
+    <string name="nova_senha">New password</string>
+    <string name="cadastre_se">Register</string>
+    <string name="realizado">Accomplish!</string>
+    <string name="atraso">Overdue!</string>
+    <string name="dose_1">1st dose</string>
+    <string name="dose_2">2st dose</string>
+    <string name="vaccine_info">Scheduled dose for 07/22/2021. Attend the health facility closest to your home.</string>
+    <string name="gripe">Influenza</string>
+    <string name="tetano">Tetanus</string>
+    <string name="sarampo">Measles</string>
+    <string name="proxima_vacina">Next Vaccine</string>
+    <string name="date22_07_2021">07/22/2021</string>
+    <string name="date22_08_2021">08/22/2021</string>
+    <string name="date22_09_2021">09/22/2021</string>
+    <string name="date22_10_2021">10/22/2021</string>
+</resources>

@@ -30,7 +30,7 @@
                 android:width="65dp"
                 android:height="23dp"
                 android:lineSpacingMultiplier="1.29"
-                android:text="2º Dose"
+                android:text="@string/dose_2"
                 android:textAppearance="?attr/textAppearanceHeadline6"
                 android:textColor="#FF47525E"
                 android:textSize="19dp" />
@@ -42,7 +42,7 @@
                 android:width="250dp"
                 android:height="96dp"
                 android:lineSpacingMultiplier="1.28"
-                android:text="Dose agendada para o dia 22/07/2021. Compareça a unidade de saúde mais próxima de sua residência."
+                android:text="@string/vaccine_info"
                 android:textColor="#FF47525E"
                 android:textSize="14dp" />
 
@@ -54,7 +54,7 @@
                 android:height="19dp"
                 android:background="@drawable/atraso"
                 android:lineSpacingMultiplier="1.28"
-                android:text="Em atraso!"
+                android:text="@string/atraso"
                 android:textColor="#FFFFFFFF"
 
                 android:textSize="16dp" />
@@ -86,7 +86,7 @@
                 android:layout_alignParentLeft="true"
                 android:width="65dp"
                 android:height="23dp"
-                android:text="1º Dose"
+                android:text="@string/dose_1"
                 android:textAppearance="?attr/textAppearanceHeadline6"
                 android:textColor="#FF47525E"
                 android:textSize="19dp" />
@@ -99,7 +99,7 @@
                 android:height="19dp"
                 android:background="@drawable/realizada"
                 android:lineSpacingMultiplier="1.28"
-                android:text="Realizada!"
+                android:text="@string/realizado"
                 android:textColor="#FFFFFFFF"
 
                 android:textSize="16dp" />
