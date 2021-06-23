@@ -2,11 +2,6 @@
     <!-- Main activity-->
     <string name="app_name">Carteira de Vacinação Digital</string>
     <string name="page_title">Carteira de Vacinação Digital</string>
-    <string name="cpf">CPF</string>
-    <string name="senha">SENHA</string>
-    <string name="desc">Logo</string>
-    <string name="user">User</string>
-    <string name="content_description_media">Próxima vacina</string>
     <string name="titulo_cadastrar">Cadastro usuário</string>
     <string name="obrigatorio">Campo obrigatorio</string>
     <string name="cpf" translatable="false">CPF</string>
@@ -44,5 +39,6 @@
     <string name="date22_08_2021">22/08/2021</string>
     <string name="date22_09_2021">22/09/2021</string>
     <string name="date22_10_2021">22/10/2021</string>
+    <string name="titulo_carteira">Minha Carteira</string>
 
 </resources>
