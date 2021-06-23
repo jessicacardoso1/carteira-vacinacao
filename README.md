@@ -36,7 +36,7 @@ Os cenários de uso nos permite visualizar os diferentes casos de uso do sistema
 
 ![Cenário de uso 4](doc/cenariodeuso/cenario4.png)
 
-### [Definição de requisitos](doc/definicaoderequisitos/definicaoderequisitos.pdf)
+### [Definição de requisitos](https://github.com/jessicacardoso1/carteira-vacinacao/blob/main/doc/definicaoderequisitos/denificaoderequistos.pdf)
 
 
 
