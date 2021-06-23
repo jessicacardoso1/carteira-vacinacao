@@ -60,4 +60,6 @@ public class CadastroDAO extends SQLiteOpenHelper {
         return false;
 
     }
+
+
 }

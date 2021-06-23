@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
         //String name = et.getText().toString();
 
-        EditTexCpf = (EditText) findViewById(R.id.cpf);
-        EditTextSenha = (EditText) findViewById(R.id.senha);
+        EditTexCpf = (EditText) findViewById(R.id.cpfLogin);
+        EditTextSenha = (EditText) findViewById(R.id.senhaLogin);
         button = (Button) findViewById(R.id.login);
-
+        button2 = (Button) findViewById(R.id.cadastrar);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -44,9 +44,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-        button2 = (Button) findViewById(R.id.cadastrar);
-
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,17 +51,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-    }
-
-    public void criarActivityLogin() {
-        Intent intent = new Intent(this, carteira.class);
-        startActivity(intent);
-    }
-
-
-    public void criarActivityCadastrar(){
-        Intent intent = new Intent(this, cadastro.class);
-        startActivity(intent);
     }
 
     private void autenticaUsuario(String cpf, String senha){
@@ -75,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         CadastroDAO cadastroDAO = new CadastroDAO(this);
         boolean resultado = cadastroDAO.autenticaUsuario(usuario);
         if (resultado == true){
-            criarActivityLogin();
+            criarActivityCarteira(usuario);
             finish();
         }else{
             EditTexCpf.setText("");
@@ -85,6 +71,17 @@ public class MainActivity extends AppCompatActivity {
 
         }
 
+    }
+    public void criarActivityCarteira(Usuario usuario) {
+        Intent intent = new Intent(this, carteira.class);
+        intent.putExtra("consulta",usuario.getCpf());
+        startActivity(intent);
+    }
+
+
+    public void criarActivityCadastrar(){
+        Intent intent = new Intent(this, cadastro.class);
+        startActivity(intent);
     }
 /*
     @Override
