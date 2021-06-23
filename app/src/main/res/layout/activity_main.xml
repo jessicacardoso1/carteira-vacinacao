@@ -20,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="CPF"
+            android:hint="@string/cpf"
             android:inputType="text" />
 
         <EditText
@@ -29,14 +29,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:ems="10"
-            android:hint="Senha"
+            android:hint="@string/senha"
             android:inputType="text"/>
 
         <Button
             android:id="@+id/login"
             android:layout_width="350dp"
             android:layout_height="60dp"
-            android:text="Login"
+            android:text="@string/login"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
             android:background="@drawable/rounded_corner"/>
@@ -46,7 +46,7 @@
             android:layout_width="350dp"
             android:layout_height="60dp"
             android:layout_marginTop="10dp"
-            android:text="Criar conta"
+            android:text="@string/criar_conta"
             android:layout_gravity="center"
             style="?attr/materialButtonOutlinedStyle"
             android:background="@drawable/rounded_corner"/>

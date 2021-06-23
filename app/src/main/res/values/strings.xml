@@ -1,4 +1,5 @@
 <resources>
+    <!-- Main activity-->
     <string name="app_name">Carteira de Vacinação Digital</string>
     <string name="page_title">Carteira de Vacinação Digital</string>
     <string name="cpf">CPF</string>
@@ -8,4 +9,40 @@
     <string name="content_description_media">Próxima vacina</string>
     <string name="titulo_cadastrar">Cadastro usuário</string>
     <string name="obrigatorio">Campo obrigatorio</string>
+    <string name="cpf" translatable="false">CPF</string>
+    <string name="senha">Senha</string>
+    <string name="login" translatable="false">Login</string>
+    <string name="criar_conta">Criar conta</string>
+    <string name="desc" translatable="false">Logo</string>
+
+    <!-- Cadastro -->
+    <string name="nome_completo">Nome Completo</string>
+    <string name="data_nascimento">Data de nascimento</string>
+    <string name="celular">Celular</string>
+    <string name="endereco">Endereco</string>
+    <string name="nova_senha">Digite a nova senha</string>
+    <string name="cadastre_se">Cadastre-se</string>
+    <string name="email" translatable="false">E-mail</string>
+
+    <!-- Detalhes Vacina -->
+    <string name="dose_2">2º dose</string>
+    <string name="vaccine_info">Dose agendada para o dia 22/07/2021. Compareça a unidade de saúde mais próxima de sua residência.</string>
+    <string name="atraso">Em atraso!</string>
+    <string name="dose_1">1º Dose</string>
+    <string name="realizado">Realizada!</string>
+
+
+    <!-- Minha carteira -->
+    <string name="user">Usuário</string>
+    <string name="covid" translatable="false">Covid 19</string>
+    <string name="gripe">Gripe</string>
+    <string name="tetano">Tetano</string>
+    <string name="sarampo">Sarampo</string>
+    <string name="content_description_media">Imagem</string>
+    <string name="proxima_vacina">Próxima Vacina</string>
+    <string name="date22_07_2021">22/07/2021</string>
+    <string name="date22_08_2021">22/08/2021</string>
+    <string name="date22_09_2021">22/09/2021</string>
+    <string name="date22_10_2021">22/10/2021</string>
+
 </resources>

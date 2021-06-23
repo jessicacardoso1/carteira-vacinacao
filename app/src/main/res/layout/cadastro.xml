@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="30"
-        android:hint="Nome completo"
+        android:hint="@string/nome_completo"
         android:textSize="20sp"
         android:inputType="text" />
 
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:ems="10"
-        android:hint="Data de nascimento"
+        android:hint="@string/data_nascimento"
         android:textSize="20sp"
         android:inputType="text" />
 
@@ -31,7 +31,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:textSize="20sp"
-        android:hint="CPF"
+        android:hint="@string/cpf"
         android:inputType="text" />
 
     <EditText
@@ -41,7 +41,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:textSize="20sp"
-        android:hint="E-mail"
+        android:hint="@string/email"
         android:inputType="text" />
 
     <EditText
@@ -51,7 +51,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:textSize="20sp"
-        android:hint="Celular"
+        android:hint="@string/celular"
         android:inputType="text" />
 
     <EditText
@@ -61,7 +61,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:textSize="20sp"
-        android:hint="Endereço"
+        android:hint="@string/endereco"
         android:inputType="text" />
 
     <EditText
@@ -71,7 +71,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:textSize="20sp"
-        android:hint="Senha"
+        android:hint="@string/senha"
         android:inputType="text"/>
 
     <EditText
@@ -81,7 +81,7 @@
         android:layout_marginTop="10dp"
         android:ems="10"
         android:textSize="20sp"
-        android:hint="Digite a nova senha"
+        android:hint="@string/nova_senha"
         android:inputType="text" />
 
     <Button
@@ -91,7 +91,7 @@
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:background="@drawable/quadrado_botao"
-        android:text="Cadastre-se" />
+        android:text="@string/cadastre_se" />
 
 
 </LinearLayout>

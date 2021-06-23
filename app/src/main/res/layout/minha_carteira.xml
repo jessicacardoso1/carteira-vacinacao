@@ -123,7 +123,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="7dp"
                         android:layout_marginBottom="5dp"
-                        android:text="Próxima Vacina"
+                        android:text="@string/proxima_vacina"
                         android:textAppearance="?attr/textAppearanceHeadline6"
                         android:textSize="5pt" />
 
@@ -131,7 +131,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="22/07/2021"
+                        android:text="@string/date22_07_2021"
                         android:textAppearance="?attr/textAppearanceHeadline6"
                         android:textSize="5pt" />
 
@@ -183,7 +183,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="COVID 19"
+                        android:text="@string/gripe"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -224,7 +224,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="7dp"
                         android:layout_marginBottom="5dp"
-                        android:text="Próxima Vacina"
+                        android:text="@string/proxima_vacina"
                         android:textAppearance="?attr/textAppearanceHeadline6"
                         android:textSize="5pt" />
 
@@ -232,7 +232,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="22/07/2021"
+                        android:text="@string/date22_08_2021"
                         android:textAppearance="?attr/textAppearanceHeadline6"
                         android:textSize="5pt" />
 
@@ -281,7 +281,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="COVID 19"
+                        android:text="@string/sarampo"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -322,7 +322,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="7dp"
                         android:layout_marginBottom="5dp"
-                        android:text="Próxima Vacina"
+                        android:text="@string/proxima_vacina"
                         android:textAppearance="?attr/textAppearanceHeadline6"
                         android:textSize="5pt" />
 
@@ -330,7 +330,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="22/07/2021"
+                        android:text="@string/date22_10_2021"
                         android:textAppearance="?attr/textAppearanceHeadline6"
                         android:textSize="5pt" />
 
@@ -371,7 +371,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="COVID 19"
+                        android:text="@string/tetano"
                         android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 </LinearLayout>
@@ -412,7 +412,7 @@
                         android:layout_gravity="center"
                         android:layout_marginTop="7dp"
                         android:layout_marginBottom="5dp"
-                        android:text="Próxima Vacina"
+                        android:text="@string/proxima_vacina"
                         android:textAppearance="?attr/textAppearanceHeadline6"
                         android:textSize="5pt" />
 
@@ -420,7 +420,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:text="22/07/2021"
+                        android:text="@string/date22_09_2021"
                         android:textAppearance="?attr/textAppearanceHeadline6"
                         android:textSize="5pt" />
 
