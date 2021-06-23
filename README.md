@@ -24,6 +24,22 @@ O diagrama de casos mostra as possíveis interações entre o usuário e o siste
 
 ![Diagrama de casos de uso](doc/diagrama/ATM.png)
 
+## Cenários de uso
+
+Os cenários de uso nos permite visualizar os diferentes casos de uso do sistema.
+
+![Cenário de uso 1](doc/cenariodeuso/cenario1.png)
+
+![Cenário de uso 2](doc/cenariodeuso/cenario2.png)
+
+![Cenário de uso 3](doc/cenariodeuso/cenario3.png)
+
+![Cenário de uso 4](doc/cenariodeuso/cenario4.png)
+
+### [Definição de requisitos](doc/definicaoderequisitos/definicaoderequisitos.pdf)
+
+
+
 
 ## Protótipo de baixa fidelidade
 
@@ -69,6 +85,9 @@ Segue abaixo algumas aplicações correlatas.
 
 ![Minhas vacinas](doc/appcorrelatas/minhasvacinas.png)
 
+
+ 
+ ####
 ## Desenvolvedores:
 
 Aron Brito
