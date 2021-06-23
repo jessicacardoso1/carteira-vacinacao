@@ -16,7 +16,7 @@
             android:contentDescription="@string/desc" />
 
         <EditText
-            android:id="@+id/cpf"
+            android:id="@+id/cpfLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -24,7 +24,7 @@
             android:inputType="text" />
 
         <EditText
-            android:id="@+id/senha"
+            android:id="@+id/senhaLogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"

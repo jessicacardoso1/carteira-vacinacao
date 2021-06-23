@@ -17,6 +17,7 @@
             android:src="@drawable/raster" />
 
         <TextView
+            android:id="@+id/NomeUsuario"
             android:layout_width="39dp"
             android:layout_height="21dp"
             android:layout_gravity="center"
