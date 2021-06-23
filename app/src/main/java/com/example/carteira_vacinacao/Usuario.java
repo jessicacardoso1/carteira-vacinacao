@@ -223,7 +223,7 @@ public class Usuario {
         return Usuario;
     }*/
 
- /*   public void carregaUsuarioPeloID(int codigo){
+   public void carregaUsuarioPeloCPF(String cpf){
         CadastroDAO cadastroDAO = null;
         SQLiteDatabase sqLiteDatabase = null;
         Cursor cursor = null;
@@ -231,12 +231,11 @@ public class Usuario {
         try {
             cadastroDAO = new CadastroDAO(context);
             sqLiteDatabase = cadastroDAO.getReadableDatabase();
-            cursor = sqLiteDatabase.query("usuario",null, "id = ?", new String[] {String.valueOf(codigo)},null,null, null);
+            cursor = sqLiteDatabase.query("usuario",null, "cpf = ?", new String[] {String.valueOf(cpf)},null,null, null);
             while (cursor.moveToNext()){
-                this.codigo = cursor.getInt(cursor.getColumnIndex("codigo"));
                 nome = cursor.getString(cursor.getColumnIndex("nome"));
                 dataNascimento = cursor.getString(cursor.getColumnIndex("datanascimento"));
-                cpf = cursor.getString(cursor.getColumnIndex("cpf"));
+                this.cpf = cursor.getString(cursor.getColumnIndex("cpf"));
                 email=  cursor.getString(cursor.getColumnIndex("email"));
                 celular = cursor.getString(cursor.getColumnIndex("celular"));
                 endereco = cursor.getString(cursor.getColumnIndex("endereco"));
@@ -254,7 +253,7 @@ public class Usuario {
                 cadastroDAO.close();
         }
 
-    }*/
+    }
 
 
 
