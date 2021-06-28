@@ -3,6 +3,7 @@ package com.example.carteira_vacinacao;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Button button2;
     private EditText EditTexCpf;
     private EditText EditTextSenha;
+    private SharedPreferences myPrefs=null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,11 +35,21 @@ public class MainActivity extends AppCompatActivity {
         button = (Button) findViewById(R.id.login);
         button2 = (Button) findViewById(R.id.cadastrar);
 
+        myPrefs = getSharedPreferences("myPrefs",MODE_PRIVATE);
+
+        String cpf = myPrefs.getString("cpf","");
+        if(cpf!=null){
+            EditTexCpf.setText(cpf);
+        }
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 try {
                     autenticaUsuario(EditTexCpf.getText().toString(), EditTextSenha.getText().toString());
+                    SharedPreferences.Editor ePrefs = myPrefs.edit();
+                    ePrefs.putString("cpf",MainActivity.this.EditTexCpf.getText().toString());
+                    ePrefs.commit();
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
