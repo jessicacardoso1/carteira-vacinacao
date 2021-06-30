@@ -10,10 +10,14 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 public class carteira extends AppCompatActivity {
     private Button button;
     private TextView TextViewNome;
     private Usuario usuario;
+    private FirebaseAnalytics mFirebaseAnalytics;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +36,9 @@ public class carteira extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 criarActivityDetalhesVacina();
+                Bundle bundle1 = new Bundle();
+                bundle1.putString(FirebaseAnalytics.Param.ITEM_NAME, "vacina_covid");
+                mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle1);
             }
         });
     }

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "467800581620",
+    "project_id": "carteiravacinacaodigital",
+    "storage_bucket": "carteiravacinacaodigital.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467800581620:android:cab74b641f143a1d3245a1",
+        "android_client_info": {
+          "package_name": "com.example.carteira_vacinacao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "467800581620-ipoftfr81mack4vhkqvkfb8kkgm3j79g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjn__JTpkSOGxqxyrFvYa7m4cggc1qxbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "467800581620-ipoftfr81mack4vhkqvkfb8kkgm3j79g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
