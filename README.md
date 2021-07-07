@@ -98,6 +98,18 @@ Jéssica Cardoso
 
 Ludmila Brito
 
+## Requitos Mobile:
 
+| Header | Another header | Yet another header |
+|--- |--- |--- |
+| row 1 | column 2 | column 3 |
+| row 2 | row 2 column 2 | row 2 column 3 |
 
-
+| Características | Status | 
+|--- |--- |
+| Preferências | OK | 
+| Permissão | OK |
+| Internacionalização | OK |
+| Persistência em SQLite| OK | 
+| Google Analytic| OK | 
+| Comunicação com Servidor(Json)| Pendente | 
